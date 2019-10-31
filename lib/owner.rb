@@ -55,6 +55,8 @@ def list_pets
   "I have #{dogs.length} dog(s), and #{cats.length} cat(s)."
 end
 
+##################################################################################
+
 def change_moods(obj_arr, new_mood)  #Custom method not in assignment, makes methods DRYer
   obj_arr.each { |obj|
     obj.mood = new_mood
